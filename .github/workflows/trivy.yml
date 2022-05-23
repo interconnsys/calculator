@@ -6,8 +6,7 @@
 name: trivy-test
 
 on:
-  push:
-   workflow_dispatch:
+ workflow_dispatch:
 
 permissions:
   contents: read
